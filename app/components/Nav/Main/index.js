@@ -462,7 +462,7 @@ class Main extends PureComponent {
 		paymentChannelRequestInfo: {},
 		showExpandedMessage: false,
 		paymentChannelBalance: null,
-		paymentChannelReady: false
+		paymentChannelReady: false,
 		dappTransactionModalVisible: false
 	};
 
