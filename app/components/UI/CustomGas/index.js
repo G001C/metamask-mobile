@@ -401,7 +401,7 @@ class CustomGas extends PureComponent {
 		const { ticker } = this.props;
 		if (ticker && ticker !== 'ETH') toggleAdvancedCustomGas(true);
 		//Applies ISF error if present before any gas modifications
-		this.setState({ warningSufficientFunds });
+		this.setState({ warningSufficientFunds, advancedCustomGas: ticker && ticker !== 'ETH' });
 	};
 
 	componentDidUpdate = prevProps => {
