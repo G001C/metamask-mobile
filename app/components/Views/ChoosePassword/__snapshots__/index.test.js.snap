@@ -221,11 +221,24 @@ exports[`ChoosePassword should render correctly 1`] = `
             style={
               Object {
                 "color": "#000000",
+                "fontSize": 14,
                 "paddingHorizontal": 10,
               }
             }
           >
-            I understand that MetaMask cannot recover this password for me. Learn more.
+            I understand that MetaMask cannot recover this password for me.
+
+            <Text
+              style={
+                Object {
+                  "color": "#037dd6",
+                  "textDecorationColor": "#037dd6",
+                  "textDecorationLine": "underline",
+                }
+              }
+            >
+              Learn more.
+            </Text>
           </Text>
         </View>
       </View>
